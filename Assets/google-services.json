@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248300635572",
+    "project_id": "donut-stack",
+    "storage_bucket": "donut-stack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248300635572:android:9c84468067fc8f10115ee1",
+        "android_client_info": {
+          "package_name": "com.abuck.doughnutmerge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248300635572-bpq2n7p6l9oia3ikeoa3mdvhdfl68r5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApOrx3igAH_rryRx6KTA6CkYo9qmuGViY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248300635572-bpq2n7p6l9oia3ikeoa3mdvhdfl68r5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+-keep public class Firebase.Analytics.**{*;}
+-keep public class com.adjust.sdk.**{*;}
