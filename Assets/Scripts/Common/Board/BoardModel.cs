@@ -72,6 +72,10 @@ namespace DonutStack.Common.Board
             {
                 e.stack.OnReturn();
             }
+            if (currentObject != null)
+            {
+                currentObject.OnReturn();
+            }
         }
 
         public void SpawnStack()
@@ -241,6 +245,7 @@ namespace DonutStack.Common.Board
             //if stack falling return up to MergeAndFall 
             if (IsStackFalling(arrivedStack))
             {
+                await new WaitForSeconds(.5f);
                 return;
             }
             topColor = arrivedStack.GetTopObjectColor();
